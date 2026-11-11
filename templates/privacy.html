@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+
+{% block title %}Privacy Policy — Spendly{% endblock %}
+
+{% block content %}
+
+<article class="legal">
+    <div class="hero-badge">Legal</div>
+    <h1 class="legal-title">Privacy Policy</h1>
+    <p class="legal-updated">Last updated: November 11, 2026</p>
+
+    <p class="legal-intro">
+        Your financial records are personal. This policy explains what
+        information Spendly collects, how we use it, and the choices you have.
+        By using Spendly, you agree to the practices described here.
+    </p>
+
+    <section class="legal-section">
+        <h2>1. Data We Collect</h2>
+        <p>We collect only what we need to run the service:</p>
+        <ul>
+            <li><strong>Account information</strong> — your name, email address, and a securely hashed password.</li>
+            <li><strong>Expense data</strong> — the amounts, categories, dates, and descriptions you choose to record.</li>
+            <li><strong>Technical information</strong> — basic logs such as browser type and request times, used to keep the service secure and working.</li>
+        </ul>
+        <p>
+            We do not collect bank account numbers, card details, or connect to
+            your financial institutions.
+        </p>
+    </section>
+
+    <section class="legal-section">
+        <h2>2. How We Use Your Data</h2>
+        <p>Your information is used to:</p>
+        <ul>
+            <li>Create and secure your account.</li>
+            <li>Store your expenses and show you summaries and category breakdowns.</li>
+            <li>Respond to support requests you send us.</li>
+            <li>Detect and prevent misuse of the service.</li>
+        </ul>
+        <p>
+            We do not sell your data, and we do not use your expense records
+            for advertising.
+        </p>
+    </section>
+
+    <section class="legal-section">
+        <h2>3. Data Storage</h2>
+        <p>
+            Your data is stored in a database operated for Spendly. Passwords
+            are stored only as one-way hashes and are never kept in plain text.
+            We take reasonable technical measures to protect your information,
+            but no method of storage or transmission is completely secure.
+        </p>
+        <p>
+            We keep your data for as long as your account is active. You can
+            edit or delete individual expenses at any time, and if you delete
+            your account, your associated data will be removed.
+        </p>
+    </section>
+
+    <section class="legal-section">
+        <h2>4. Third Party Services</h2>
+        <p>
+            Spendly loads web fonts from Google Fonts, which may receive your
+            IP address and basic browser information when a page loads. Apart
+            from this, we do not share your personal or expense data with third
+            parties, except where required by law.
+        </p>
+        <p>
+            If we introduce new third-party services in the future, we will
+            update this policy before doing so.
+        </p>
+    </section>
+
+    <section class="legal-section">
+        <h2>5. Contact Us</h2>
+        <p>
+            If you have questions about this policy, or want to access, correct,
+            or delete your data, contact us at
+            <a href="mailto:privacy@spendly.example">privacy@spendly.example</a>.
+        </p>
+        <p>
+            We may update this policy from time to time. Changes will be
+            reflected in the "Last updated" date at the top of this page.
+        </p>
+    </section>
+</article>
+
+{% endblock %}
